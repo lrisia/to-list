@@ -11,7 +11,8 @@ class TodoController {
     _todoList = TodoList(todos: [
       Todo('นี่คือเสียงจากเด็กวัด'),
       Todo('แก้ animation ตอนลบ todo'),
-      Todo('แก้ให้ตรง note เอา /n ออกเมื่อ unfocus'),
+      Todo('แก้ให้ todo เก็บใน storage จริง'),
+      Todo('feat search'),
       Todo('แข็งแรงเหมือนมึงเอาเหล็กงัด',
           description:
               'a;fjklajsfdkl;jaskl;fjl;asdjfl;jakl;dfjkl;jasdfkl;jkl;ajdfkl;jakl;sdfj'),

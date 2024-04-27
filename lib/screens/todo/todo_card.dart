@@ -51,6 +51,11 @@ class _TodoCardState extends State<TodoCard> {
       setState(() {
         widget.todo.editDescription(null);
       });
+    } else if (!_subtitleTextFocusNode.hasFocus &&
+        _subTitleTextEditingController.text.isNotEmpty) {
+      setState(() {
+        widget.todo.editDescription(_subTitleTextEditingController.text.trim());
+      });
     }
   }
 

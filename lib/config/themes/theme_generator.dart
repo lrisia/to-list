@@ -34,6 +34,7 @@ class ThemeGenerator {
     required Color checkboxCheckColor,
   }) {
     _theme = ThemeData(
+        fontFamily: 'Roboto',
         brightness: Brightness.light,
         dividerColor: dividerColor,
         shadowColor: shadowColor,

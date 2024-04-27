@@ -12,7 +12,6 @@ class TodoController {
       Todo('นี่คือเสียงจากเด็กวัด'),
       Todo('แก้ animation ตอนลบ todo'),
       Todo('แก้ให้ตรง note เอา /n ออกเมื่อ unfocus'),
-      Todo('กำหนด font เพื่อให้เหมือนทั้งใน ios & droid'),
       Todo('แข็งแรงเหมือนมึงเอาเหล็กงัด',
           description:
               'a;fjklajsfdkl;jaskl;fjl;asdjfl;jakl;dfjkl;jasdfkl;jkl;ajdfkl;jakl;sdfj'),
